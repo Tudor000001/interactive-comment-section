@@ -31,6 +31,7 @@ main{
     display:inline-grid;
     justify-content:center;
     line-height:0px;
+    vertical-align:top;
 }
 
 .plusMinus{
@@ -45,10 +46,13 @@ main{
 
 .name{
     display:inline;
+    color:blue;
+    font-weight:600;
 }
 
 .date{
     display:inline;
+    color:gray;
 }
 
 .pfp{
@@ -62,9 +66,10 @@ main{
     position:relative;
     display:inline-block;
     width:fit-content;
-    top:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+    height:fit-content;
     border-spacing:10px;
-    background-color:red;
     vertical-align:middle;
 }
 
@@ -81,4 +86,5 @@ main{
 
 .message{
     display:inline;
+    color:darkgray;
 }
