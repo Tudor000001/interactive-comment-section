@@ -1,4 +1,8 @@
+var posting = document.getElementById('posting');
 
+posting.addEventListener("submit", function (e) {
+    e.preventDefault();
+})
 
 
 fetch('https://api.jsonbin.io/v3/qs/64b2d6788e4aa6225ebebc66')

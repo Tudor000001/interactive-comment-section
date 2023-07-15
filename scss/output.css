@@ -11,11 +11,47 @@ main {
   margin-top: 3%;
 }
 
+.pfpPost {
+  height: 40px;
+  margin: 20px;
+  vertical-align: top;
+}
+
+#text {
+  resize: none;
+  width: 70%;
+  height: 70%;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-indent: 10px;
+  border: 1px solid gray;
+}
+
+#text::placeholder {
+  color: gray;
+  font-size: 20px;
+}
+
+.submitButton {
+  position: relative;
+  width: 13%;
+  height: 25%;
+  color: white;
+  font-weight: 600;
+  bottom: 40%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: hsl(238, 40%, 52%);
+}
+
 .comment {
   background-color: white;
   height: fit-content;
   width: contain;
   border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .likeDislike {
@@ -85,6 +121,14 @@ main {
 .message {
   display: inline;
   color: darkgray;
+}
+
+#posting {
+  position: relative;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  top: 100%;
 }
 
 /*# sourceMappingURL=output.css.map */
