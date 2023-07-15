@@ -1,17 +1,17 @@
 var posting = document.getElementById('posting');
+var id = document.getElementById('id');
+var ratio = document.getElementById('ratio');
 
 posting.addEventListener("submit", function (e) {
     e.preventDefault();
 })
 
 
-fetch('https://api.jsonbin.io/v3/qs/64b2d6788e4aa6225ebebc66')
-    .then(response => response.json()) // Parse the response as JSON
+fetch('https://api.jsonbin.io/v3/qs/64b31ac2b89b1e2299bf8227')
+    .then(response => response.json())
     .then(data => {
-        // Process the JSON data
-        console.log(data);
-        // You can access the data properties like data.name, data.age, etc.
+        ratio.innerHTML = data.record.comments.find(comment => comment.id === 1).score;
     })
     .catch(error => {
-        console.error('Error:', error);
+        console.log('Error fetching JSON:', error);
     });
