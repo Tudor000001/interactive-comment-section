@@ -1,0 +1,84 @@
+body {
+  font-family: Verdana;
+  background-color: hsl(228, 33%, 97%);
+}
+
+main {
+  background-color: gray;
+  height: fit-content;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
+}
+
+.comment {
+  background-color: white;
+  height: fit-content;
+  width: contain;
+  border-radius: 10px;
+}
+
+.likeDislike {
+  position: relative;
+  height: 80px;
+  width: 30px;
+  background-color: hsl(228, 33%, 97%);
+  color: red;
+  border-radius: 10px;
+  margin: 15px;
+  display: inline-grid;
+  justify-content: center;
+  line-height: 0px;
+}
+
+.plusMinus {
+  display: inline;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  padding: 0px;
+}
+
+.name {
+  display: inline;
+}
+
+.date {
+  display: inline;
+}
+
+.pfp {
+  position: relative;
+  display: inline;
+  height: 19px;
+  top: 3px;
+}
+
+.nameDateContainer {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  top: 15px;
+  border-spacing: 10px;
+  background-color: red;
+  vertical-align: middle;
+}
+
+.reply {
+  float: right;
+  margin: 10px;
+  height: fit-content;
+  color: hsl(238, 40%, 52%);
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.message {
+  display: inline;
+}
+
+/*# sourceMappingURL=output.css.map */
